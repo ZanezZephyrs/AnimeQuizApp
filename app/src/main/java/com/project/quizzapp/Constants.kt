@@ -1,6 +1,9 @@
 package com.project.quizzapp
 
 object Constants{
+    const val USER_NAME:String="User_name"
+    const val TOTAL_QUESTIONS:String="Total_question"
+    const val CORRECT_ANSWERS: String="Correct_Answer"
 
     fun getQuestions():ArrayList<Question>{
         val questionList=ArrayList<Question>()
@@ -19,7 +22,7 @@ object Constants{
         questionList.add(Question(
             2,
             "What is the name of the character below",
-            R.drawable.question2_aquiles,
+            R.drawable.question2,
             "Shirato",
             "Hercules",
             "Aquiles",
